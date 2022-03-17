@@ -1,0 +1,40 @@
+​         ​create​ ​table​ ​Students 
+ ​( 
+ ​        StuID ​int​, 
+ ​        FirstNmae ​VARCHAR​(​25​), 
+ ​        LastName ​VARCHAR​(​25​), 
+ ​        Website ​VARCHAR​(​50​), 
+ ​        City ​VARCHAR​(​25​), 
+ ​        Division ​VARCHAR​(​20​) 
+ ​) 
+  
+ ​SELECT​ ​*​FROM​ Students 
+  
+ ​INSERT INTO​ Students ​VALUES​(​1011​,​'​Keyur​'​,​'​Patel​'​,​'​techonthenet.com​'​,​'​Rajkot​'​,​'​II-BCX​'​) 
+ ​INSERT INTO​ Students ​VALUES​(​1022​,​'​Hardik​'​,​'​Shah​'​,​'​digminecraft.com​'​,​'​Ahmedabad​'​,​'​I-BCY​'​) 
+ ​INSERT INTO​ Students ​VALUES​(​1033​,​'​Kajal​'​,​'​Trivedi​'​,​'​bigactivities.com​'​,​'​Baroga​'​,​'​IV-DCX​'​) 
+ ​INSERT INTO​ Students ​VALUES​(​1044​,​'​Bhoomi​'​,​'​Gajera​'​,​'​checkyourmath.com​'​,​'​Ahmedabad​'​,​'​III-DCW​'​) 
+ ​INSERT INTO​ Students ​VALUES​(​1055​,​'​Harmit​'​,​'​Mitel​'​,​'​'​,​'​Rajkot​'​,​'​II-BCY​'​) 
+ ​INSERT INTO​ Students ​VALUES​(​1066​,​'​Ashok​'​,​'​Jani​'​,​'​'​,​'​Baroda​'​,​'​II-BCZ​'​) 
+  
+ ​select​ FirstNmae,LastName ​from​ Students ​where​ FirstNmae ​like​ ​'​k%​' 
+ ​2​ ​select​ FirstNmae,LastName ​from​ Students123 ​where​ FirstNmae ​like​ ​'​_____​' 
+ ​3​ ​select​ FirstNmae,LastName ​from​ Students123 ​where​ city ​like​ ​'​%a​'​ ​and​ city ​like​ ​'​______​' 
+ ​4​ ​select​ ​*​ ​from​ Students ​where​ LastName ​like​ ​'​%​' 
+ ​5​ ​select​ ​*​ ​from​ Students ​where​ FirstNmae ​like​ ​'​ha%​'​ ​and​ FirstNmae ​like​ ​'​%t​' 
+ ​6​ ​select​ ​*​ ​from​ Students ​where​ FirstNmae ​like​ ​'​k%​'​ ​and​ FirstNmae ​like​ ​'​__y%​' 
+ ​7​ ​select​ ​*​ ​from​ Students ​where​  FirstNmae ​like​ ​'​_____​'​ ​and​ Website is ​null​  
+ ​8​ ​select​ ​*​ ​from​ Students ​where​ LastName ​like​ ​'​%jer%​' 
+ ​9​ ​select​ ​*​ ​from​ Students ​where​ city ​like​'​r%​'​ ​or​ city ​like​'​b%​' 
+ ​10​ ​select​ ​*​ ​from​ Students ​where​ Website ​is  not null​  
+ ​11​ ​select​ ​*​ ​from​ Students ​where​ FirstNmae ​like​ ​'​[a-h]%​' 
+ ​12​ ​select​ ​*​ ​from​ Students ​where​ FirstNmae ​like​ ​'​_[a,e,i,o,u]%​' 
+ ​13​ ​select​ FirstNmae  ​from​ Students ​where​ city ​like​ ​'​%rod%​' 
+ ​14​ ​select​ FirstNmae,LastName ​from​ Students ​where​ website ​like​ ​'​bi%​' 
+ ​15​ ​select​ city ​from​ Students ​where​ LastName ​like​ ​'​______​' 
+ ​16​ ​select​ ​*​ ​from​ Studentswhere city ​like​ ​'​_____​'​ ​and​ city not ​like​ ​'​ba%​' 
+ ​17​ ​select​ ​*​ ​from​ Students ​where​ division ​like​ ​'​II%​' 
+ ​18​ ​select​ FirstNmae ​from​ Students ​where​ division ​like​ ​'​%bc%​' 
+ ​19​  ​select​ stuid,city ​from​ Students ​where​ division ​like​ ​'​______​'​ ​and​ website ​is not null 
+ ​20​ ​select​ ​*​ ​from​ Students ​where​ FirstNmae not ​like​  ​'​__[a,e,i,o,u]%​' 
+ ​ 
