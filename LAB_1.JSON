@@ -1,0 +1,58 @@
+[
+  {
+    "ACTNO": 101,
+    "CNAME": "ANIL",
+    "BNAME": "VRCE",
+    "AMOUNT": 1000,
+    "ADATE": "1-3-95"
+  },
+ {
+    "ACTNO": 102,
+    "CNAME": "SUNIL",
+    "BNAME": "AJNI",
+    "AMOUNT": 5000,
+    "ADATE": "4-1-96"
+  },
+ {
+    "ACTNO": 103,
+    "CNAME": "MEHUL",
+    "BNAME": "KAROLBAGH",
+    "AMOUNT": 3500,
+    "ADATE": "17-11-95"
+  },
+{
+    "ACTNO": 104,
+    "CNAME": "MADHURI",
+    "BNAME": "CHANDI",
+    "AMOUNT": 1200,
+    "ADATE": "17-12-95"
+  },
+ {
+    "ACTNO": 105,
+    "CNAME": "PRMOD",
+    "BNAME": "M.G. ROAD",
+    "AMOUNT": 3000,
+    "ADATE": "27-3-96"
+  },
+ {
+    "ACTNO": 106,
+    "CNAME": "SANDIP",
+    "BNAME": "ANDHERI",
+    "AMOUNT": 2000,
+    "ADATE": "31-3-96"
+  },
+{
+    "ACTNO": 107,
+    "CNAME": "SHIVANI",
+    "BNAME": "VIRAR",
+    "AMOUNT": 1000,
+    "ADATE": "5-9-95"
+  },
+{
+    "ACTNO": 108,
+    "CNAME": "KRANTI",
+    "BNAME": "NEHRU PLACE",
+    "AMOUNT": 5000,
+    "ADATE": "2-7-95"
+  }
+]
